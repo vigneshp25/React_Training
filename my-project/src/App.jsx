@@ -1,10 +1,12 @@
-import Header from "./components/Header/Header"
-
+import Banner from "./Components/Banner/Banner"
+import Footer from "./Components/Footer/Footer"
+import Header from "./Components/Header/Header"
 const App = () => {
   return (
     <>
-      <div className="text-3xl">Learn Vignesh</div>
-      <Header/>
+      <Header />
+      <Banner />
+      <Footer />
     </>
   )
 }
