@@ -1,7 +1,10 @@
+import BannerImage from "../../assets/banner.png"
 
 const Banner = () => {
   return (
-    <div>Banner Component</div>
+    <div className="w-full flex bg-cover">
+      <img src={BannerImage} alt="BannerImage" className="w-full h-full" />
+    </div>
   )
 }
 
