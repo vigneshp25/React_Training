@@ -8,7 +8,6 @@ const Card = () => {
         CardDetails.map((card)=>{
             return <div key={card.heading}>
             <h3>{card.heading}</h3>
-            console.log(card.image);
             <img src={card.image} alt={card.image} />
             <p>{card.content}</p>
         </div>
