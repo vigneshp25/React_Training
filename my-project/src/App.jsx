@@ -7,7 +7,7 @@ const App = () => {
     <div className="flex w-full flex-col">
       <Header />
       <Banner />
-      <Card />
+      <Card></Card>
       <Footer />
     </div>
   )

@@ -3,13 +3,14 @@ import CardDetails from "./Card_Details"
 const Card = () => {
     
   return (
-    <div>
+    <div className="flex gap-8 mx-8">
        {
         CardDetails.map((card)=>{
-            return <div key={card.heading}>
-            <h3>{card.heading}</h3>
-            <img src={card.image} alt={card.image} />
-            <p>{card.content}</p>
+            const {heading, image, content} = card;
+            return <div key={heading} className="flex flex-col w-2/3">
+            <h3 className="text-xl uppercase">{heading}</h3>
+            <img src={image} alt={image} className="w-full h-2/3 py-2" />
+            <p className="tracking-wide py-1">{content}</p>
         </div>
        })}
     </div>

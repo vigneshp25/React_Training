@@ -6,17 +6,17 @@ const CardDetails = [
     {
         heading: 'Web Designer', 
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-        image: {smallBanner1}
+        image: smallBanner1
     },
     {
         heading: 'Graphics Designer', 
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-        image: {smallBanner2}
+        image: smallBanner2
     },
     {
         heading: 'Logo Designer', 
         content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 
-        image: {smallBanner3}
+        image: smallBanner3
     },
 ]
 
