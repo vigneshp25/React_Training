@@ -11,8 +11,10 @@ export default function IntroSection() {
         </div>
         <div className="w-full md:w-2/3">
           <HelloBubble />
-          <h2 className="text-5xl mb-6 mt-6"> I'm <span className='font-bold'>Vigneshwaran Palanivel</span>
+          <h2 className="text-5xl mb-6 mt-6">
+            I'm <span className="font-bold bg-gradient-to-r from-purple-400 via-pink-500 to-yellow-500 bg-clip-text text-transparent">Vigneshwaran Palanivel</span>
           </h2>
+
           <h3 className="text-2xl mb-6 font-bold"> Senior Associate Developer UI/UX
           </h3>
           <div className='mt-10'>

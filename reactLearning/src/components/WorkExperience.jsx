@@ -4,7 +4,7 @@ import { projectData } from "../assets/projectData";
 
 export default function WorkExperience() {
     return (
-        <div className="w-full max-w-[1120px] mx-auto px-4 mt-10">
+        <div className="w-full max-w-[1120px] mx-auto px-4 mt-10 ">
             <UnderLinedHeaddings>Work Experience</UnderLinedHeaddings>
 
             {projectData.map((item, index) => (
@@ -15,7 +15,7 @@ export default function WorkExperience() {
                             <h3 className="text-2xl mb-6 font-bold">{item.role}</h3>
                         </div>
                         <div className="w-full md:w-1/3">
-                            <h4 className="text-xl mb-6 font-bold text-right text-blue-500">{item.duration}</h4>
+                            <h4 className="text-xl mb-6 font-bold text-right bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500 bg-clip-text text-transparent">{item.duration}</h4>
                         </div>
                     </div>
 
