@@ -1,6 +1,6 @@
 export default function WorkContent({ Project, Brief, Technologies, ToolsAndTechnologies, TeamSize }) {
     return (
-        <div className="grid grid-cols-[auto_1fr] gap-y-4 gap-x-12 text-left">
+        <div className="grid md:grid-cols-[auto_1fr] grid-cols-1 gap-y-4 md:gap-x-12 text-left">
 
             <p className="font-semibold pr-8">Project:</p>
             <p className="font-bold">{Project}</p>

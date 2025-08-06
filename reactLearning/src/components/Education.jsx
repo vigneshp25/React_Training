@@ -5,11 +5,11 @@ export default function Education() {
     return (<>
         <div className="w-full max-w-[1120px] mx-auto px-4 mt-10">
             <UnderLinedHeaddings>Education</UnderLinedHeaddings>
-            <div className="flex flex-col md:flex-row gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {educationData.map((item, index) => (
                     <div
                         key={index}
-                        className="border shadow p-6 w-full md:w-1/3 bg-white"
+                        className="border shadow p-6 w-full bg-white"
                     >
                         <div className="flex justify-between items-center mb-4">
                             <h3 className="text-xl font-bold">{item.degree}</h3>

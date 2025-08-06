@@ -2,7 +2,7 @@ import UnderLinedHeaddings from "./UnderLinedHeaddings"
 
 export default function Overview() {
     return (<>
-        <div className="w-full max-w-[1120px] mx-auto px-4 mt-10">
+        <div className="w-full max-w-[1120px] mx-auto px-4 sm:px-6 mt-10">
             <UnderLinedHeaddings>Overview</UnderLinedHeaddings>
             <p className="mt-1 text-justify">
                 Hi there! My name is Vigneshwaran, and I specialize in web development and UI design. With over 10 years and
