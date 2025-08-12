@@ -1,13 +1,14 @@
 import Header from "./components/Header"
 import UserInput from "./components/UserInput"
+import Result from "./components/Result";
 import { useState } from "react"
 
 function App() {
   const [userInputValues, SetUserInputValues] = useState({
-    initialInvestment: 0,
-    annualInvestment: 0,
-    expectedReturn: 0,
-    duration: 0,
+    initialInvestment: 10000,
+    annualInvestment: 1000,
+    expectedReturn: 12,
+    duration: 1,
   });
 
   function handleChange(key,value){
@@ -22,6 +23,7 @@ function App() {
     <>
       <Header />
       <UserInput userInputValues={userInputValues} onChangeValue={handleChange}/>
+      <Result userInputValues={userInputValues}/>
     </>
   )
 }
