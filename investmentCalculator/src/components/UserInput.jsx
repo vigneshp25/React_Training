@@ -20,7 +20,7 @@ const userInputFields = [
 ];
 
 const UserInput = ({onChangeValue, userInputValues}) => {
-    return <section className="w-[800px] mx-auto grid grid-cols-2 gap-10 my-10 py-10 px-10 border border-gray-300 bg-gradient-to-br from-blue-50 to-white shadow-md">
+    return <section className="w-full max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 my-10 py-8 px-6 border border-gray-300 bg-gradient-to-br from-blue-50 to-white shadow-md">
         {userInputFields.map((item) => {
             return <InputBox key={item.key} label={item.label} value={userInputValues[item.key]} onChangeInput={(value)=> onChangeValue(item.key,value)} />
         })}

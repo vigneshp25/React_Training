@@ -10,8 +10,8 @@ if(isValidYear){
 
   return (
     
-    <div className="overflow-x-auto">
-      <table className="w-[800px] mx-auto bg-white shadow-lg overflow-hidden border border-gray-200 mb-20">
+    <div className="overflow-x-auto max-w-4xl mx-auto">
+      <table className="w-full bg-white shadow-lg overflow-hidden border border-gray-200 mb-20">
         <thead className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white">
           <tr>
             <th className="p-3 text-right uppercase font-semibold">Year</th>
