@@ -1,4 +1,5 @@
 import CreateTask from "./components/createTask";
+import TaskList from "./components/TaskList";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       </main>
       <section>
         <CreateTask />
+        <TaskList/>
       </section>
     </>
   );
